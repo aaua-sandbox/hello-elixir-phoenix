@@ -3,6 +3,13 @@
   <p>A productive web framework that<br/>does not compromise speed and maintainability.</p>
 </section>
 
+<section>
+  <h2>作成したページ</h2>
+  <ul>
+    <li><%= link "Articles", to: Routes.article_path(@conn, :index) %></li>
+  </ul>
+</section>
+
 <section class="row">
   <article class="column">
     <h2>Resources</h2>
