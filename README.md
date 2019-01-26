@@ -25,7 +25,7 @@ iex --version
 mix local.hex
 mix archive.install hex phx_new 1.4.0
 
-mix phx.new hello_elixir_phoenix
+mix phx.new hello_elixir_phoenix --database mysql
 cd hello_elixir_phoenix/
 
 docker-compose up -d
