@@ -10,10 +10,12 @@ defmodule HelloElixirPhoenix.Articles.Article do
     timestamps()
   end
 
+  # 登録内容のチェック
+  # https://hexdocs.pm/ecto/Ecto.Changeset.html
   @doc false
   def changeset(article, attrs) do
     article
     |> cast(attrs, [:title, :body])
-    |> validate_required([:title, :body])
+    |> validate_required([:title])
   end
 end

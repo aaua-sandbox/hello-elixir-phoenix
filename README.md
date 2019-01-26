@@ -55,6 +55,16 @@ mix docs
 open ./doc/index.html
 ```
 
+## console
+```
+iex -S mix
+```
+
+## Scaffolding sample
+```
+mix phx.gen.html Articles Article articles title:string body:string
+```
+
 ## Learn more
 
   * Official website: http://www.phoenixframework.org/
